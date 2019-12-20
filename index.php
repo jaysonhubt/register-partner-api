@@ -322,12 +322,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14">保有資格</p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="1" name="qualifications[]" style="margin-left: 0;">
-                                    <label class="form-check-label" for="qualifications[]">国家資格キャリアコンサルタント</label>
+                                    <label class="form-check-label" for="qualifications[]">
+                                        <input class="form-check-input" type="checkbox" value="1" name="qualifications[]" style="margin-left: 0;">
+                                        国家資格キャリアコンサルタント
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="3" name="qualifications[]" style="margin-left: 0">
-                                    <label class="form-check-label" for="qualifications[]">GCDF</label>
+                                    <label class="form-check-label" for="qualifications[]">
+                                        <input class="form-check-input" type="checkbox" value="3" name="qualifications[]" style="margin-left: 0">
+                                        GCDF
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -335,12 +339,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="2" name="qualifications[]" style="margin-left: 0">
-                                    <label class="form-check-label">２級キャリア・コンサルティング技能士</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="2" name="qualifications[]" style="margin-left: 0">
+                                        ２級キャリア・コンサルティング技能士
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="4" name="qualifications[]" style="margin-left: 0">
-                                    <label class="form-check-label">CDA</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="4" name="qualifications[]" style="margin-left: 0">
+                                        CDA
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -348,12 +356,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="5" name="qualifications[]" style="margin-left: 0;">
-                                    <label class="form-check-label" for="qualifications[]">産業カウンセラー</label>
+                                    <label class="form-check-label" for="qualifications[]">
+                                        <input class="form-check-input" type="checkbox" value="5" name="qualifications[]" style="margin-left: 0;">
+                                        産業カウンセラー
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="6" name="qualifications[]" style="margin-left: 0">
-                                    <label class="form-check-label">ICCA</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="6" name="qualifications[]" style="margin-left: 0">
+                                        ICCA
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -361,12 +373,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14">ご経験のある業界</p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="1" name="experienced_industries[]" style="margin-left: 0;">
-                                    <label class="form-check-label" for="experienced_industries[]">メーカー（機電系）</label>
+                                    <label class="form-check-label" for="experienced_industries[]">
+                                        <input class="form-check-input" type="checkbox" value="1" name="experienced_industries[]" style="margin-left: 0;">
+                                        メーカー（機電系）
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="3" name="experienced_industries[]" style="margin-left: 0">
-                                    <label class="form-check-label" for="experienced_industries[]">商社</label>
+                                    <label class="form-check-label" for="experienced_industries[]">
+                                        <input class="form-check-input" type="checkbox" value="3" name="experienced_industries[]" style="margin-left: 0">
+                                        商社
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -374,12 +390,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="2" name="experienced_industries[]" style="margin-left: 0">
-                                    <label class="form-check-label">メーカー（その他）</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="2" name="experienced_industries[]" style="margin-left: 0">
+                                        メーカー（その他）
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="4" name="experienced_industries[]" style="margin-left: 0">
-                                    <label class="form-check-label">流通</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="4" name="experienced_industries[]" style="margin-left: 0">
+                                        流通
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -387,12 +407,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="5" name="experienced_industries[]" style="margin-left: 0;">
-                                    <label class="form-check-label" for="experienced_industries[]">小売</label>
+                                    <label class="form-check-label" for="experienced_industries[]">
+                                        <input class="form-check-input" type="checkbox" value="5" name="experienced_industries[]" style="margin-left: 0;">
+                                        小売
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="6" name="experienced_industries[]" style="margin-left: 0">
-                                    <label class="form-check-label">金融</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="6" name="experienced_industries[]" style="margin-left: 0">
+                                        金融
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -400,12 +424,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="7" name="experienced_industries[]" style="margin-left: 0">
-                                    <label class="form-check-label">サービス</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="7" name="experienced_industries[]" style="margin-left: 0">
+                                        サービス
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="8" name="experienced_industries[]" style="margin-left: 0">
-                                    <label class="form-check-label">ソフトウエア、通信</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="8" name="experienced_industries[]" style="margin-left: 0">
+                                        ソフトウエア、通信
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -413,12 +441,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" value="9" name="experienced_industries[]" style="margin-left: 0;">
-                                    <label class="form-check-label" for="experienced_industries[]">広告、出版、マスコミ</label>
+                                    <label class="form-check-label" for="experienced_industries[]">
+                                        <input class="form-check-input" type="checkbox" value="9" name="experienced_industries[]" style="margin-left: 0;">
+                                        広告、出版、マスコミ
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" value="10" name="experienced_industries[]" style="margin-left: 0">
-                                    <label class="form-check-label">官公庁、公社、団体</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="10" name="experienced_industries[]" style="margin-left: 0">
+                                        官公庁、公社、団体
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -426,12 +458,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14">新卒採用実務経験</p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" name="new_briefing_presentation" style="margin-left: 0;">
-                                    <label class="form-check-label" for="new_briefing_presentation">説明会プレゼン</label>
+                                    <label class="form-check-label" for="new_briefing_presentation">
+                                        <input class="form-check-input" type="checkbox" name="new_briefing_presentation" style="margin-left: 0;">
+                                        説明会プレゼン
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" name="new_personal_interview" style="margin-left: 0">
-                                    <label class="form-check-label" for="new_personal_interview">個人面接</label>
+                                    <label class="form-check-label" for="new_personal_interview">
+                                        <input class="form-check-input" type="checkbox" name="new_personal_interview" style="margin-left: 0">
+                                        個人面接
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -439,12 +475,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" name="new_group_interview" style="margin-left: 0">
-                                    <label class="form-check-label">集団面接</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="new_group_interview" style="margin-left: 0">
+                                        集団面接
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" name="new_group_discussion" style="margin-left: 0">
-                                    <label class="form-check-label">ｸﾞﾙｰﾌﾟﾃﾞｨｽｶｯｼｮﾝ・ｸﾞﾙｰﾌﾟﾜｰｸ</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="new_group_discussion" style="margin-left: 0">
+                                        ｸﾞﾙｰﾌﾟﾃﾞｨｽｶｯｼｮﾝ・ｸﾞﾙｰﾌﾟﾜｰｸ
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -452,12 +492,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                             <p class="col-3 fs-14"></p>
                             <div class="col-9 fs-14">
                                 <div class="form-check form-check-inline col-6" style="float:left;">
-                                    <input class="form-check-input" type="checkbox" name="new_seminar" style="margin-left: 0;">
-                                    <label class="form-check-label" for="new_seminar">ｾﾐﾅｰ運営・ｱﾃﾝﾄﾞ・受付業務</label>
+                                    <label class="form-check-label" for="new_seminar">
+                                        <input class="form-check-input" type="checkbox" name="new_seminar" style="margin-left: 0;">
+                                        ｾﾐﾅｰ運営・ｱﾃﾝﾄﾞ・受付業務
+                                    </label>
                                 </div>
                                 <div class="form-check form-check-inline col-6" style="margin-left: 0;">
-                                    <input class="form-check-input" type="checkbox" name="new_school_around" style="margin-left: 0">
-                                    <label class="form-check-label">学校回り</label>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="new_school_around" style="margin-left: 0">
+                                        学校回り
+                                    </label>
                                 </div>
                             </div>
                         </div>
