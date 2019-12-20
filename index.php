@@ -2,14 +2,13 @@
 const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
 	<title>Register Partner API</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
 </head>
@@ -673,7 +672,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
                     </form>
                 </div>
                 <p class="text-center fs-12 mt-4">
-                    <a href="<?php echo home_url(); ?>/privacy/" class="link-defalut"
+                    <a href="#" class="link-defalut"
                        style="text-decoration: underline;">
                         個人情報・プライバシーポリシー
                     </a>
@@ -682,8 +681,6 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
             </div>
             <div class="col-xl-4 hidden-lg-down">
                 <div id="sidebar">
-                    <?php get_sidebar('contact'); ?>
-                    <?php get_sidebar('links'); ?>
                 </div>
             </div>
         </div>
