@@ -6,9 +6,6 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
 <head>
 	<title>Register Partner API</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery-3.1.1.slim.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
 </head>
@@ -685,6 +682,10 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf';
             </div>
         </div>
     </div>
+    <scritp src="js/jquery-3.2.0.min.js"></scritp>
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script>
         jQuery(document).ready(function () {
             jQuery(document).ajaxStart(function() {
