@@ -697,7 +697,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 <div class="form-check form-check-inline col-6" style="float:left;">
                                     <label class="form-check-label">
                                         <input class="form-check-input" type="checkbox" name="agree_term" style="margin-left: 0">
-                                        同意する/同意しない
+                                        同意する
                                     </label>
                                 </div>
                             </div>
