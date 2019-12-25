@@ -17,3 +17,13 @@
 	.pc{display:none;}
 	img.pc{display:none !important;}
 }
+
+.rules {
+    overflow: scroll;
+    max-height: 200px;
+    background: #e8e8e8;
+}
+
+.rules pre {
+    padding: 15px;
+}

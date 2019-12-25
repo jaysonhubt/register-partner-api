@@ -5,6 +5,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 <html lang="ja">
 <head>
 	<title>Register Partner API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -80,7 +81,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 <span class="last_name">
                                   <input type="text" name="last_name" value="" size="40" class="txtarea form-control" required
                                          aria-invalid="false"
-                                         placeholder="Please input Last name">
+                                         placeholder="姓">
                                 </span>
                             </p>
                         </div>
@@ -90,7 +91,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 <span class="first_name">
                                   <input type="text" name="first_name" value="" size="40" class="txtarea form-control" required
                                          aria-invalid="false"
-                                         placeholder="Please input first name">
+                                         placeholder="名">
                                 </span>
                             </p>
                         </div>
@@ -99,7 +100,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-9 fs-14">
                                 <span class="last_name_kana">
                                   <input type="text" name="last_name_kana" value="" size="40" class="txtarea form-control" required
-                                         aria-invalid="false" placeholder="Please input Last name (Kana)">
+                                         aria-invalid="false" placeholder="姓(カナ)">
                                 </span>
                             </p>
                         </div>
@@ -108,7 +109,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-9 fs-14">
                                 <span class="first_name_kana">
                                   <input type="text" name="first_name_kana" value="" size="40" class="txtarea form-control" required
-                                         aria-invalid="false" placeholder="Please input first name (Kana)">
+                                         aria-invalid="false" placeholder="名(カナ)">
                                 </span>
                             </p>
                         </div>
@@ -118,7 +119,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 <span class="email">
                                   <input type="email" name="email" value="" size="40" class="txtarea form-control" required
                                          aria-invalid="false"
-                                         placeholder="Please input email">
+                                         placeholder="メールアドレス">
                                 </span>
                             </p>
                         </div>
@@ -128,7 +129,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 <span class="emergency_email">
                                   <input type="email" name="emergency_email" value="" size="40" class="txtarea form-control"
                                          aria-invalid="false"
-                                         placeholder="Please input Emergency email">
+                                         placeholder="ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)">
                                 </span>
                             </p>
                         </div>
@@ -138,7 +139,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 <span class="phone_number">
                                   <input type="text" name="phone_number" value="" size="40" class="txtarea form-control"
                                          required
-                                         aria-invalid="false" placeholder="Please input Phone number">
+                                         aria-invalid="false" placeholder="電話番号(携帯)">
                                 </span>
                             </p>
                         </div>
@@ -171,7 +172,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 <span class="postal_code">
                                   <input type="text" name="postal_code" value="" size="40" class="txtarea form-control"
                                          required
-                                         aria-invalid="false" placeholder="0000000">
+                                         aria-invalid="false" placeholder="000-0000">
                                 </span>
                             </p>
                         </div>
@@ -239,7 +240,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-9 fs-14">
                                 <span class="street_address">
                                   <input type="text" name="street_address" value="" size="40" class="txtarea form-control" required
-                                         aria-invalid="false" placeholder="Street address">
+                                         aria-invalid="false" placeholder="住所">
                                 </span>
                             </p>
                         </div>
@@ -571,7 +572,6 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             </div>
                         </div>
 
-
                         <div class="row mb-2 form-group">
                             <p class="col-3 fs-14">経験業務</p>
                             <div class="col-9 fs-14">
@@ -651,6 +651,57 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                                 </div>
                             </div>
                         </div>
+                        <div class="row mb-2 form-group">
+                            <div class="col-12 rules">
+                                <pre>
+                    応募者の個人情報に関する取扱い方針
+
+株式会社アールナイン（以下，「当社」といいます。）は，応募者の個人情報を，以下の取
+扱い方針（以下,「本方針」といいます。）及び個人情報の管理について定める当社「プライ
+バシーポリシー」に基づき，適切に管理・運用致します。当社求人へのご応募にあたって
+は,本方針及び「プライバシーポリシー」をよくお読みになり,これらへ同意して頂く必要が
+あります。
+
+第1条（個人情報の利用目的）
+ご応募にあたってご提供頂いた個人情報は，以下の目的のためにのみ利用致します。
+
+・採用選考時の判断
+・応募者の方へのご連絡
+・採用後のパートナーフォロー業務における使用
+
+第2条（書類・電子データの取扱い）
+ご応募にあたってご提供頂いた個人情報及び書類ないしデータは,採用又は不採用のいずれ
+の場合であっても返却することはできません。
+ご応募にあたってご提供頂いた書類ないし電子データは,当社にて適切に管理し,しかるべき
+時に破棄・消去（破棄等）致します。当社は,応募者に対し,当該書類ないし電子データの
+保管又は破棄等のいずれの義務も負わないものとします。
+
+第3条（適用除外）
+当社求人へのご応募の体裁をとるものであっても,その内容がこれにあたらない場合,本方針
+の対象外となります。
+
+第4条（個人情報を提供いただけない場合の取扱い）
+当社が指定する個人情報をご提供いただけない場合，当社求人へご応募頂くことはできま
+せん。
+
+第5条（お問い合わせ）
+ご応募に関するお問い合わせは,次の当社担当までご連絡ください。
+
+担当　パートナーサポート部
+連絡先　03-6205-4499
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="row mb-2 form-group">
+                            <div class="col-12 fs-14">
+                                <div class="form-check form-check-inline col-6" style="float:left;">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="agree_term" style="margin-left: 0">
+                                        同意する/同意しない
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
                         <div id="result" class="mb-2"></div>
                         <div class="loading" style="display:none;">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; display: block;" width="50px" height="50px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
@@ -670,7 +721,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                     </form>
                 </div>
                 <p class="text-center fs-12 mt-4">
-                    <a href="#" class="link-defalut"
+                    <a href="https://r09.jp/privacy/" class="link-defalut"
                        style="text-decoration: underline;">
                         個人情報・プライバシーポリシー
                     </a>
@@ -699,6 +750,11 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 
         function callApi(event) {
             event.preventDefault();
+
+            if (!$("input[name=agree_term]").is(':checked')) {
+                return showErrorMessages('同意しないければ登録出来ません。');
+            }
+
             var formData = new FormData(document.getElementById('register-partner'));
 
             jQuery.ajax({
@@ -727,13 +783,13 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
             });
         }
 
-        function showErrorMessages(messages) {
+        function showErrorMessages(messages = "There is an error!") {
             const html = "<div class=\'alert alert-danger\'>" + messages + '</div>';
 
             $('#result').html(html);
         }
 
-        function showSuccessMessage(message) {
+        function showSuccessMessage(message = "There is an error!") {
             const html = "<div class='alert alert-success'>" + message + '</div>';
 
             $('#result').html(html);
