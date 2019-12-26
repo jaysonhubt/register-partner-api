@@ -752,7 +752,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
             event.preventDefault();
 
             if (!$("input[name=agree_term]").is(':checked')) {
-                return showErrorMessages('同意しないければ登録出来ません。');
+                return showErrorMessages('同意しなければ登録出来ません。');
             }
 
             var formData = new FormData(document.getElementById('register-partner'));
