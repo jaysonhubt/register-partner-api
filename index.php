@@ -50,11 +50,14 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                 </div>
             </div>
             <div class="col-xl-8 pull-xl-4">
-                <h3 class="fs-24 ls-01 mt-xl-0 mt-5"><em><b>お問い合わせ</b></em></h3>
+                <h3 class="fs-24 ls-01 mt-xl-0 mt-5"><em><b>パートナー応募</b></em></h3>
                 <hr class="bc-ccc">
                 <br>
-                <p>下記の入力フォームに必要事項をご入力の上、「送信ボタン」をクリックして下さい。<br>１営業日以内に当社のコンサルタントが対応しご連絡させていただきます。スポットでのご依頼、代表
-                    長井への講演依頼など、何でもお気軽にお問い合わせください。<br><span class="c-ffd70a">＊</span>印は必須項目です。</p>
+                <p>
+                    下記の入力フォームに必要事項をご入力の上、「送信ボタン」をクリックして下さい。<br>
+                    5営業日以内に当社のパートナーサポート部よりご連絡させていただきます。<br>
+                    <span class="c-ffd70a">＊</span>印は必須項目です。
+                </p>
             </div>
         </div>
     </div>
@@ -66,7 +69,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                     <form action="<?php echo REGISTER_PARTNER_API_ACTION; ?>" id="register-partner" method="post"
                           enctype="multipart/form-data" onsubmit="callApi(event)">
                         <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14">写真データ<span class="c-ffd70a">＊</span></p>
+                            <p class="col-3 fs-14">プロフィール写真（顔写真）<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="avatar">
                                     <input type="file" name="avatar" size="40" class="form-control" required
@@ -144,7 +147,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14">生年月日（年齢）<span class="c-ffd70a">＊</span></p>
+                            <p class="col-3 fs-14">生年月日<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="date_of_birth">
                                   <input type="text" name="date_of_birth" value="" size="40" class="txtarea form-control"
@@ -308,11 +311,11 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14">自由記入欄</p>
+                            <p class="col-3 fs-14">自己PRなどご記入ください。</p>
                             <p class="col-9 fs-14">
                                 <span class="education_introduce">
                                   <input type="text" name="education_introduce" value="" size="40" class="txtarea form-control"
-                                         aria-invalid="false" placeholder="自由記入欄">
+                                         aria-invalid="false" placeholder="自己PRなどご記入ください。">
                                 </span>
                             </p>
                         </div>
