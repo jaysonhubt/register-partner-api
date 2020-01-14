@@ -72,7 +72,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">プロフィール写真（顔写真）<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="avatar">
-                                    <input type="file" name="avatar" size="40" class="form-control" required
+                                    <input type="file" name="avatar" size="40" class="form-control" oninvalid="invalid();" required
                                            accept=".jpeg,.png,.bmp,.gif,.svg,.webp"
                                            aria-invalid="false">
                                 </span>
@@ -82,7 +82,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">姓<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="last_name">
-                                  <input type="text" name="last_name" value="" size="40" class="txtarea form-control" required
+                                  <input type="text" name="last_name" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false"
                                          placeholder="姓">
                                 </span>
@@ -92,7 +92,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">名<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="first_name">
-                                  <input type="text" name="first_name" value="" size="40" class="txtarea form-control" required
+                                  <input type="text" name="first_name" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false"
                                          placeholder="名">
                                 </span>
@@ -102,7 +102,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">姓(カナ)<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="last_name_kana">
-                                  <input type="text" name="last_name_kana" value="" size="40" class="txtarea form-control" required
+                                  <input type="text" name="last_name_kana" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="姓(カナ)">
                                 </span>
                             </p>
@@ -111,7 +111,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">名(カナ)<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="first_name_kana">
-                                  <input type="text" name="first_name_kana" value="" size="40" class="txtarea form-control" required
+                                  <input type="text" name="first_name_kana" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="名(カナ)">
                                 </span>
                             </p>
@@ -120,7 +120,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">メールアドレス (PC)<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="email">
-                                  <input type="email" name="email" value="" size="40" class="txtarea form-control" required
+                                  <input type="email" name="email" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false"
                                          placeholder="メールアドレス">
                                 </span>
@@ -130,7 +130,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)</p>
                             <p class="col-9 fs-14">
                                 <span class="emergency_email">
-                                  <input type="email" name="emergency_email" value="" size="40" class="txtarea form-control"
+                                  <input type="email" name="emergency_email" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false"
                                          placeholder="ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)">
                                 </span>
@@ -141,7 +141,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-9 fs-14">
                                 <span class="phone_number">
                                   <input type="text" name="phone_number" value="" size="40" class="txtarea form-control"
-                                         required
+                                         oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="電話番号(携帯)">
                                 </span>
                             </p>
@@ -151,7 +151,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-9 fs-14">
                                 <span class="date_of_birth">
                                   <input type="text" name="date_of_birth" value="" size="40" class="txtarea form-control"
-                                         required
+                                         oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="1980/01/01">
                                 </span>
                             </p>
@@ -160,7 +160,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">性別<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="gender_id">
-                                  <select name="gender_id" class="form-control" required aria-invalid="false">
+                                  <select name="gender_id" class="form-control" oninvalid="invalid();" required aria-invalid="false">
                                     <option value=""> --性別を選択する-- </option>
                                     <option value="1">男</option>
                                     <option value="2">女</option>
@@ -174,7 +174,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-9 fs-14">
                                 <span class="postal_code">
                                   <input type="text" name="postal_code" value="" size="40" class="txtarea form-control"
-                                         required
+                                         oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="000-0000">
                                 </span>
                             </p>
@@ -184,7 +184,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-9 fs-14">
                                 <span class="prefecture_id">
                                     <select name="prefecture_id" class="form-control"
-                                            required aria-invalid="false">
+                                            oninvalid="invalid();" required aria-invalid="false">
                                         <option value=""> --都道府県を選択する-- </option>
                                         <option value="13">東京都</option>
                                         <option value="27">大阪府</option>
@@ -242,7 +242,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">住所<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="street_address">
-                                  <input type="text" name="street_address" value="" size="40" class="txtarea form-control" required
+                                  <input type="text" name="street_address" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="住所">
                                 </span>
                             </p>
@@ -251,7 +251,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">履歴書・職歴書等<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="first_resume_file">
-                                    <input type="file" name="first_resume_file" size="40" required class="form-control"
+                                    <input type="file" name="first_resume_file" size="40" oninvalid="invalid();" required class="form-control"
                                            accept=".pdf,.xls,.xlsx,.doc,.docx"
                                            aria-invalid="false">
                                 </span>
@@ -281,7 +281,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">最終学歴：区分<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="education_type_id">
-                                    <select name="education_type_id" class="form-control" required aria-invalid="false">
+                                    <select name="education_type_id" class="form-control" oninvalid="invalid();" required aria-invalid="false">
                                         <option value="">--最終学歴--</option>
                                         <option value="1">大卒</option>
                                         <option value="2">大学院卒</option>
@@ -296,7 +296,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">最終学歴：学校名<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="school_name">
-                                  <input type="text" name="school_name" value="" size="40" class="txtarea form-control" required
+                                  <input type="text" name="school_name" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="最終学歴：学校名">
                                 </span>
                             </p>
@@ -305,7 +305,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">最終学歴：学部学科<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="undergraduate_major">
-                                  <input type="text" name="undergraduate_major" value="" size="40" class="txtarea form-control" required
+                                  <input type="text" name="undergraduate_major" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="最終学歴：学部学科">
                                 </span>
                             </p>
@@ -750,6 +750,10 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                 jQuery('.loading').hide();
             });
         });
+
+        function invalid() {
+            showErrorMessages(`＊上記認証用の文字を入力してください。`);
+        }
 
         function callApi(event) {
             event.preventDefault();
