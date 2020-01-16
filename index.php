@@ -1,5 +1,5 @@
 <?php
-const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_application';
+const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -130,7 +130,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                             <p class="col-3 fs-14">ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)</p>
                             <p class="col-9 fs-14">
                                 <span class="emergency_email">
-                                  <input type="email" name="emergency_email" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="email" name="emergency_email" value="" size="40" class="txtarea form-control"
                                          aria-invalid="false"
                                          placeholder="ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)">
                                 </span>
@@ -705,7 +705,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                                 </div>
                             </div>
                         </div>
-                        <div id="result" class="mb-2"></div>
+                        <div class="error" class="mb-2"></div>
                         <div class="loading" style="display:none;">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; display: block;" width="50px" height="50px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
                                 <circle cx="50" cy="50" fill="none" stroke="#0a0a0a" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138" transform="rotate(111.848 50 50)">
@@ -721,6 +721,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
                                 <br>
                             </div>
                         </div>
+                        <div class="success" class="mb-2"></div>
                     </form>
                 </div>
                 <p class="text-center fs-12 mt-4">
@@ -781,7 +782,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
 
                         showErrorMessages(errors);
                     } else {
-                        showSuccessMessage(result.message);
+                        showSuccessMessage('送信されました。お問い合わせいただき誠にありがとうございます。bên dưới button この内容で送信する');
                     }
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
@@ -793,13 +794,13 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas-stg.cf/api/partner_applicati
         function showErrorMessages(messages = "There is an error!") {
             const html = "<div class=\'alert alert-danger\'>" + messages + '</div>';
 
-            $('#result').html(html);
+            $('.error').html(html);
         }
 
         function showSuccessMessage(message = "There is an error!") {
             const html = "<div class='alert alert-success'>" + message + '</div>';
 
-            $('#result').html(html);
+            $('.success').html(html);
         }
     </script>
 </body>
