@@ -782,7 +782,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 
                         showErrorMessages(errors);
                     } else {
-                        showSuccessMessage('送信されました。お問い合わせいただき誠にありがとうございます。bên dưới button この内容で送信する');
+                        showSuccessMessage('送信されました。お問い合わせいただき誠にありがとうございます。');
                     }
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
