@@ -794,12 +794,14 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
         function showErrorMessages(messages = "There is an error!") {
             const html = "<div class=\'alert alert-danger\'>" + messages + '</div>';
 
+            $('.success').hide();
             $('.error').html(html);
         }
 
         function showSuccessMessage(message = "There is an error!") {
             const html = "<div class='alert alert-success'>" + message + '</div>';
 
+            $('.error').hide();
             $('.success').html(html);
         }
     </script>
