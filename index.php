@@ -47,7 +47,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
     </div>
     <div class="container py-5 my-3">
         <div class="row">
-            <div class="col-xl-4 push-xl-8 slide_in_left_up">
+            <div class="col-xl-4 push-xl-8 slide_in_left_up" style="max-height: 150px;">
                 <div class="pages-main-about-us p-sm-5 p-4">
                     <p class="fs-24 c-0f213f"><b>パートナー応募資格・条件</b></p>
                     <p class="c-0f213f mt-4">
