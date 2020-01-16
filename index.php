@@ -186,10 +186,11 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">郵便番号<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="postal_code">
-                                  <input type="text" name="postal_code" value="" size="40" class="txtarea form-control"
+                                  <input type="text" name="postal_code" value="" size="40" class="txtarea postal-code-type form-control"
                                          oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="000-0000">
                                 </span>
+                                <p>ハイフンは自動反映されますので入力不要です。</p>
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
@@ -747,6 +748,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
     <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
     <script>
         jQuery(document).ready(function () {
             jQuery(document).ajaxStart(function() {
@@ -811,6 +813,23 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
             $('.error').hide();
             $('.success').html(html);
             $('.success').show();
+        }
+
+        const postalCodeConfig = {
+            mask: '999-9999',
+            selector: '.postal-code-type',
+            placeholder: '000-0000'
+        };
+
+        function applyPostalCodeMask() {
+            $(postalCodeConfig.selector)
+                .mask(postalCodeConfig.mask)
+                .attr('placeholder', postalCodeConfig.placeholder)
+                .on('click', function (event) {
+                    if (event.currentTarget.value.length === 0 || !/\d/.test(event.currentTarget.value)) {
+                        event.currentTarget.setSelectionRange(0, 0)
+                    }
+                });
         }
     </script>
 </body>
