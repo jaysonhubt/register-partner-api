@@ -10,6 +10,12 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
+    <style>
+        #contact .txtarea.not-gray {
+            background: none;
+            border: 1px solid rgba(0,0,0,.15);
+        }
+    </style>
 </head>
 <body>
 	<div class="hidden-md-down">
@@ -43,9 +49,16 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
         <div class="row">
             <div class="col-xl-4 push-xl-8 slide_in_left_up">
                 <div class="pages-main-about-us p-sm-5 p-4">
-                    <p class="fs-24 c-0f213f"><b>アールナインへのお問い合わせ</b></p>
+                    <p class="fs-24 c-0f213f"><b>パートナー応募資格・条件</b></p>
                     <p class="c-0f213f mt-4">
-                        アールナインのサイトにご訪問いただきありがとうございます。お問い合わせ頂いた件については、１営業日以内に当社のコンサルタントが対応しご連絡させていただきます。「社員の定着率を改善したい」という根深い課題から「採用説明会の運営を任せたい」など、スポットでのご依頼でも、対応可能です。
+                        副業・WワークOK、英語力不問<br>
+                        【いずれか必須】<br>
+                        ・人事（採用業務）経験者<br>
+                        ・人材業界での業務経験者 （人材紹介、派遣、就職支援などのご経験があり、採用やキャリアへの知識がある方）<br>
+                        ・キャリア・コンサルタントの資格をお持ちの方<br><br>
+
+                        ※スポット案件を中心に、様々な採用関連業務をお願いさせて頂く可能性がございます。どんな働き方を実現したいと考えているか、まずはご希望をお聞かせください！
+
                     </p>
                 </div>
             </div>
@@ -82,7 +95,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">姓<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="last_name">
-                                  <input type="text" name="last_name" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="text" name="last_name" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false"
                                          placeholder="姓">
                                 </span>
@@ -92,7 +105,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">名<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="first_name">
-                                  <input type="text" name="first_name" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="text" name="first_name" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false"
                                          placeholder="名">
                                 </span>
@@ -102,7 +115,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">姓(カナ)<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="last_name_kana">
-                                  <input type="text" name="last_name_kana" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="text" name="last_name_kana" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="姓(カナ)">
                                 </span>
                             </p>
@@ -111,7 +124,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">名(カナ)<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="first_name_kana">
-                                  <input type="text" name="first_name_kana" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="text" name="first_name_kana" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="名(カナ)">
                                 </span>
                             </p>
@@ -120,7 +133,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">メールアドレス (PC)<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="email">
-                                  <input type="email" name="email" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="email" name="email" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false"
                                          placeholder="メールアドレス">
                                 </span>
@@ -130,7 +143,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)</p>
                             <p class="col-9 fs-14">
                                 <span class="emergency_email">
-                                  <input type="email" name="emergency_email" value="" size="40" class="txtarea form-control"
+                                  <input type="email" name="emergency_email" value="" size="40" class="txtarea not-gray form-control"
                                          aria-invalid="false"
                                          placeholder="ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)">
                                 </span>
@@ -140,7 +153,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">電話番号(携帯)<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="phone_number">
-                                  <input type="text" name="phone_number" value="" size="40" class="txtarea form-control"
+                                  <input type="text" name="phone_number" value="" size="40" class="txtarea not-gray form-control"
                                          oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="電話番号(携帯)">
                                 </span>
@@ -242,34 +255,27 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">住所<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="street_address">
-                                  <input type="text" name="street_address" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="text" name="street_address" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="住所">
                                 </span>
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
                             <p class="col-3 fs-14">履歴書・職歴書等<span class="c-ffd70a">＊</span></p>
+                            <p style="font-size: 11px;">
+                                写真付き履歴書・職務経歴書はどちらも必ずご添付ください。　また、その他自己PR書面がございましたらご添付ください。
+                            </p>
                             <p class="col-9 fs-14">
                                 <span class="first_resume_file">
                                     <input type="file" name="first_resume_file" size="40" oninvalid="invalid();" required class="form-control"
                                            accept=".pdf,.xls,.xlsx,.doc,.docx"
                                            aria-invalid="false">
                                 </span>
-                            </p>
-                        </div>
-                        <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14"></p>
-                            <p class="col-9 fs-14">
                                 <span class="second_resume_file">
                                     <input type="file" name="second_resume_file" size="40" class="form-control"
                                            accept=".pdf,.xls,.xlsx,.doc,.docx"
                                            aria-invalid="false">
                                 </span>
-                            </p>
-                        </div>
-                        <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14"></p>
-                            <p class="col-9 fs-14">
                                 <span class="third_resume_file">
                                     <input type="file" name="third_resume_file" size="40" class="form-control"
                                            accept=".pdf,.xls,.xlsx,.doc,.docx"
@@ -296,7 +302,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">最終学歴：学校名<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="school_name">
-                                  <input type="text" name="school_name" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="text" name="school_name" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="最終学歴：学校名">
                                 </span>
                             </p>
@@ -305,7 +311,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
                             <p class="col-3 fs-14">最終学歴：学部学科<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="undergraduate_major">
-                                  <input type="text" name="undergraduate_major" value="" size="40" class="txtarea form-control" oninvalid="invalid();" required
+                                  <input type="text" name="undergraduate_major" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="最終学歴：学部学科">
                                 </span>
                             </p>
