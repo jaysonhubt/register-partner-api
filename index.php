@@ -796,6 +796,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 
             $('.success').hide();
             $('.error').html(html);
+            $('.error').show();
         }
 
         function showSuccessMessage(message = "There is an error!") {
@@ -803,6 +804,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 
             $('.error').hide();
             $('.success').html(html);
+            $('.success').show();
         }
     </script>
 </body>
