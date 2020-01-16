@@ -751,6 +751,8 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
     <script src="js/jquery.inputmask.js"></script>
     <script>
         jQuery(document).ready(function () {
+            applyPostalCodeMask();
+
             jQuery(document).ajaxStart(function() {
                 jQuery('.loading').show();
             });
@@ -823,7 +825,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 
         function applyPostalCodeMask() {
             $(postalCodeConfig.selector)
-                .mask(postalCodeConfig.mask)
+                .inputmask(postalCodeConfig.mask)
                 .attr('placeholder', postalCodeConfig.placeholder)
                 .on('click', function (event) {
                     if (event.currentTarget.value.length === 0 || !/\d/.test(event.currentTarget.value)) {
