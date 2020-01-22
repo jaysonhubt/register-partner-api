@@ -669,7 +669,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://newpas.cf/api/partner_application';
 株式会社アールナイン（以下，「当社」といいます。）は，応募者の個人情報を，以下の
 取扱い方針（以下,「本方針」といいます。）及び個人情報の管理について定める当社「プ
 ライバシーポリシー」に基づき，適切に管理・運用致します。当社求人へのご応募にあ
-たっては,本方針及びプライバシーポリシー（https://r09.jp/privacy/ ）をよくお読みにな
+たっては,本方針及びプライバシーポリシー（<a href="https://r09.jp/privacy/" target="_blank">https://r09.jp/privacy/</a> ）をよくお読みにな
 り,これらへ同意して頂く必要があります
 
 第1条（個人情報の利用目的）
