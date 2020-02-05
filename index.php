@@ -321,8 +321,8 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             <p class="col-3 fs-14">自己PRなどご記入ください。</p>
                             <p class="col-9 fs-14">
                                 <span class="education_introduce">
-                                  <input type="text" name="education_introduce" value="" size="40" class="txtarea form-control"
-                                         aria-invalid="false" placeholder="自己PRなどご記入ください。">
+                                  <textarea cols="50" name="education_introduce" class="form-control"
+                                            aria-invalid="false" placeholder="自己PRなどご記入ください。"></textarea>
                                 </span>
                             </p>
                         </div>
