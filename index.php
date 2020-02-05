@@ -262,10 +262,11 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
-                            <p class="col-12 fs-14">履歴書・職歴書等<span class="c-ffd70a">＊</span><span style="font-size: 11px;">（pdf, xls, xlsx, doc, docx データ貼付可能) ( 最大1MBまで添付できます)</span></p>
+                            <p class="col-12 fs-14">履歴書・職歴書等<span class="c-ffd70a">＊</span></p>
                             <p style="font-size: 11px;">
                                 写真付き履歴書・職務経歴書はどちらも必ずご添付ください。　また、その他自己PR書面がございましたらご添付ください。
                             </p>
+                            <p style="font-size: 11px; width: 100%">（pdf, xls, xlsx, doc, docx データ貼付可能) ( 最大1MBまで添付できます)</p>
                             <p class="col-9 fs-14">
                                 <span class="first_resume_file">
                                     <input type="file" name="first_resume_file" size="40" oninvalid="invalid();" required class="form-control"
