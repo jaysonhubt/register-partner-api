@@ -318,7 +318,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14">自己PRなどご記入ください。</p>
+                            <p class="col-3 fs-14">自己PRなどご記入ください。(最大2000字まで)</p>
                             <p class="col-9 fs-14">
                                 <span class="education_introduce">
                                   <textarea cols="70" name="education_introduce" class="txtarea form-control"
