@@ -188,7 +188,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             <p class="col-3 fs-14">郵便番号<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="postal_code">
-                                  <input type="text" name="postal_code" value="" size="40" class="txtarea postal-code-type form-control"
+                                  <input style="margin-bottom: 0px" type="text" name="postal_code" value="" size="40" class="txtarea postal-code-type form-control"
                                          oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="000-0000">
                                     <span>ハイフンは自動反映されますので入力不要です。</span>
