@@ -798,8 +798,7 @@ E-mail：partner-support@r09.jp
                 success: function (result) {
                     if (!result.success) {
                         let errors = '';
-
-                        $.each(result.message, function (field, message) {
+                        $.each(JSON.parse(result.message), function (field, message) {
                             errors += '<p>' +  message + '</p>';
                         });
 
