@@ -141,7 +141,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14">ﾒｰﾙｱﾄﾞﾚｽ(緊急時・携帯電話等)</p>
+                            <p class="col-3 fs-14">メールアドレス（その他）</p>
                             <p class="col-9 fs-14">
                                 <span class="emergency_email">
                                   <input type="email" name="emergency_email" value="" size="40" class="txtarea not-gray form-control"
@@ -806,7 +806,7 @@ E-mail：partner-support@r09.jp
 
                         showErrorMessages(errors);
                     } else {
-                        showSuccessMessage('送信されました。お問い合わせいただき誠にありがとうございます。');
+                        showSuccessMessage('送信されました。ご応募頂き誠にありがとうございます。5営業日以内に当社のパートナーサポート部よりご連絡させていただきます。');
                     }
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
