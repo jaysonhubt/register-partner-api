@@ -113,7 +113,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14">姓(カナ)<span class="c-ffd70a">＊</span></p>
+                            <p class="col-3 fs-14">姓（全角カナ）<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="last_name_kana">
                                   <input type="text" name="last_name_kana" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
@@ -122,7 +122,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             </p>
                         </div>
                         <div class="row mb-2 form-group">
-                            <p class="col-3 fs-14">名(カナ)<span class="c-ffd70a">＊</span></p>
+                            <p class="col-3 fs-14">名（全角カナ）<span class="c-ffd70a">＊</span></p>
                             <p class="col-9 fs-14">
                                 <span class="first_name_kana">
                                   <input type="text" name="first_name_kana" value="" size="40" class="txtarea not-gray form-control" oninvalid="invalid();" required
@@ -168,7 +168,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                                 <span class="date_of_birth">
                                   <input style="border: 1px solid rgba(0,0,0,.15)" type="text" name="date_of_birth" value="" size="40" class="form-control"
                                          oninvalid="invalid();" required
-                                         aria-invalid="false" placeholder="1980/01/01">
+                                         aria-invalid="false" placeholder="1980-01-01">
                                 </span>
                             </p>
                         </div>
@@ -192,7 +192,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                                   <input style="margin-bottom: 0px;border: 1px solid rgba(0,0,0,.15)" type="text" name="postal_code" value="" size="40" class="postal-code-type form-control"
                                          oninvalid="invalid();" required
                                          aria-invalid="false" placeholder="000-0000">
-                                    <span>ハイフンは自動反映されますので入力不要です。</span>
+                                    <span>※ハイフンは自動反映されますので入力不要です。</span>
                                 </span>
                             </p>
                         </div>
