@@ -86,7 +86,7 @@ const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_app
                             <p class="col-9 fs-14">
                                 <span class="avatar">
                                     <input style="margin-bottom: 0px" type="file" name="avatar" size="40" class="form-control" oninvalid="invalid();" required
-                                           accept=".jpeg,.png,.bmp,.gif,.svg,.webp"
+                                           accept=".jpeg,.png,.bmp,.gif,.svg,.webp,.jpg,.img"
                                            aria-invalid="false">
                                     <span>img,jpg,jpeg,gif,pngの登録が可能です</span>
                                 </span>
