@@ -1,5 +1,5 @@
 <?php
-const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-stg.cf/api/partner_application';
+const REGISTER_PARTNER_API_ACTION = 'https://staff.newpas-sec.cf/api/partner_application';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
